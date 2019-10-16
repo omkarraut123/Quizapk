@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".developer">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Developers"
+        android:id="@+id/textView2"
+        android:layout_marginTop="33dp"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:autoText="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentLeft="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/button4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="31dp"
+        android:background="#01579B"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/vikas"
+        android:layout_marginTop="66dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignRight="@+id/button4"
+        android:layout_alignEnd="@+id/button4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Omkar Raut"
+        android:id="@+id/textView5"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignRight="@+id/textView7"
+        android:layout_alignEnd="@+id/textView7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="oraut2137@gmail.com"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView5"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_alignEnd="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Shivprasad Gorte"
+        android:id="@+id/textView7"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="sushant1bindra@gmail.com"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView7"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/shiva"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentRight="false" />
+
+
+</RelativeLayout>
